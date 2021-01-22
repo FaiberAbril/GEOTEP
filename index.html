@@ -54,15 +54,15 @@ se busca desarrollador web, se hacen paginas web joomla,">
 
 <body>
 
-  <div class="container-fluid">
+  <div class="container-fluid bg-dark">
     <div class="row ">
-      <div class="col-4 col-lg-12 text-dark  text-center">
+      <div class="col-12 col-md-4 text-white  text-center">
         Calle 8 #7-76 Málaga, Santander
       </div>
-      <div class="col-4 col-lg-12 text-dark  text-center">
+      <div class="col-12 col-md-4 text-white  text-center">
         Tel. +57 3214474584
       </div>
-      <div class="col-4 col-lg-12 text-dark  text-center">
+      <div class="col-12 col-md-4 text-white  text-center">
         geotepsas@gmail.com
       </div>
     </div>
@@ -81,8 +81,8 @@ se busca desarrollador web, se hacen paginas web joomla,">
 
 
   <!-- encabezado -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Geotep</a>
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top" id="inicio">
+    <a class="navbar-brand" href="#inicio">Geotep</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -90,25 +90,28 @@ se busca desarrollador web, se hacen paginas web joomla,">
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            Dropdown link
+            Servicios
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="#Estudio">Estudios geológicos</a>
+            <a class="dropdown-item" href="#Extraccion">Extracción </a>
+            <a class="dropdown-item" href="#saneamiento">Actividades de saneamiento</a>
+            <a class="dropdown-item" href="#Especializado">Actividades especializadas</a>
+            <a class="dropdown-item" href="#apoyo">Actividades de apoyo</a>            
           </div>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Sobrenosotros.html">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contacto">Contacto</a>
+        </li>
+
       </ul>
     </div>
   </nav>
@@ -116,7 +119,7 @@ se busca desarrollador web, se hacen paginas web joomla,">
 
   <!-- final encabezado -->
 
-
+<!--inicio slider-->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -158,31 +161,33 @@ se busca desarrollador web, se hacen paginas web joomla,">
       <span class="sr-only">Siguiente</span>
     </a>
   </div>
-
-
+<!--fin slider-->
 
   <div class="container-fluid cartel">
     <div class="row featurette">
       <div class="col-md-12 p-5">
         <h2 class="featurette-heading text-center te">¡Bienvenidos a Geotep!</h2>
         <p class="lead">
-          Somos proveedores de servicios responsables en la ejecución de proyectos geológicos, mineros, ambientales 
-          y actividades especializadas para la construcción de obras de ingenieria civil, con un acompañamiento permanente
-           hasta la consecución de sus objetivos.</p>
-        <button type="button" class="btn btn-warning text-center">Sobre Nosotros</button>
+          Somos proveedores de servicios responsables en la ejecución de proyectos geológicos, mineros, ambientales
+          y actividades especializadas para la construcción de obras de ingenieria civil, con un acompañamiento
+          permanente
+          hasta la consecución de sus objetivos.</p>
+        
+          <a class="btn btn-warning text-center" href="Sobrenosotros.html"> Sobre Nosotros</a>
+        
 
       </div>
     </div>
   </div>
 
 
- 
+
 
   <div class="container  mt-3 aos-init aos-animate" data-aos="fade-up">
     <div class="text-center pt-3 pb-4">
-      <h2>Eficiencia, calidad y complimiento</h2>
+      <h2>Eficiencia, calidad y cumplimiento</h2>
       <p class="text-muted">
-       en el desarrollo de nuestro trabajo.
+        en el desarrollo de nuestro trabajo.
       </p>
     </div>
   </div>
@@ -190,114 +195,184 @@ se busca desarrollador web, se hacen paginas web joomla,">
 
 
 
-    <div class="container mt-3">
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Estudios geológicos</h2>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cartografía Geológica de Superficie y Subterránea </li>
-            <li class="list-group-item">Caracterización de Materias Primas </li>
-            <li class="list-group-item">Caracterización Mineralógica y Petrográfica</li>
-            <li class="list-group-item">Geología Estructural </li>
-            <li class="list-group-item">Prospección de Aguas Subterráneas </li>
-            <li class="list-group-item">Prospección y Evaluación de Yacimientos </li>
-          </ul>
-        </div>
-        <div class="col-md-5 order-md-1">
-      <img  class="img-fluid" src="img/estudiogeologico.jpg" alt="">
-        
+  <div class="container mt-3" id="Estudio">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2" >
+        <h2 class="featurette-heading">Estudios geológicos</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cartografía Geológica de Superficie y Subterránea </li>
+          <li class="list-group-item">Caracterización de Materias Primas </li>
+          <li class="list-group-item">Caracterización Mineralógica y Petrográfica</li>
+          <li class="list-group-item">Geología Estructural </li>
+          <li class="list-group-item">Prospección de Aguas Subterráneas </li>
+          <li class="list-group-item">Prospección y Evaluación de Yacimientos </li>
+        </ul>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="img-fluid" src="img/estudiogeologico.jpg" alt="">
 
-        </div>
+
       </div>
     </div>
+  </div>
 
 
-    <div class="container mt-3 mb-2">
-      <div class="row lineadedivisiona">
-        
+  <div class="container mt-3 mb-2">
+    <div class="row lineadedivisiona">
+
+    </div>
+  </div>
+
+  <div class="container pt-5 " id="Extraccion">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-1">
+        <h2 class="featurette-heading">Extracción de hulla (carbón de piedra)</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>La extracción de diversos tipos de hulla:</strong> antracita, carbones
+            bituminosos u
+            otros tipos de carbón mineral por el método superficial o a cielo abierto.</li>
+          <li class="list-group-item">Las labores de acceso y desarrollo de la extracción; lo cual incluye
+            la construcción de bancos escalonados, útiles para arrancar masas de carbón, profundas e inclinadas,
+            acondicionamiento del mineral, transporte, mantenimiento de instalaciones y algunas labores de beneficio
+            del mineral para facilitar el transporte y mejorar su calidad.</li>
+          <li class="list-group-item">La extracción por el método subterráneo comprende generalmente: labores de acceso
+            o desarrollo (construcción de pozos, túneles, socavones, etc.), de preparación (construcción de pozos
+            interiores,
+            tambores, chimeneas, etc.), de arranque manual con pico o con martillo picador, perforación manual y
+            explosivos,
+            perforación semimecanizada y explosivos, perforación mecanizada y explosivos y otros,
+            y labores auxiliares (ventilación, desagüe, transporte dentro de la mina y hasta el sitio de acopio
+            generalmente cerca a la boca de mina).</li>
+          <li class="list-group-item">La explotación del mineral por el método de licuefacción, al igual que los
+            procesos
+            de beneficio como el lavado, el cribado (tamizado), la clasificación, la pulverización u otras actividades
+            propias
+            de la minería, que permiten</li>
+
+          <li class="list-group-item">Las operaciones para recuperar el carbón mineral de escombreras.</li>
+
+          <li class="list-group-item">La gasificación del carbón in situ.</li>
+        </ul>
+      </div>
+      <div class="col-md-5 order-md-2">
+        <img class="img-fluid" src="img/carbon.jpg" alt="">
+
+
       </div>
     </div>
+  </div>
 
-    <div class="container pt-5 ">
-      <div class="row featurette">
-        <div class="col-md-7 order-md-1">
-          <h2 class="featurette-heading">Extracción de hulla (carbón de piedra)</h2>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><strong>La extracción de diversos tipos de hulla:</strong>    antracita, carbones bituminosos u 
-              otros tipos de carbón mineral por el método superficial o a cielo abierto.</li>
-            <li class="list-group-item">Las labores de acceso y desarrollo de la extracción; lo cual incluye 
-              la construcción de bancos escalonados, útiles para arrancar masas de carbón, profundas e inclinadas,
-               acondicionamiento del mineral, transporte, mantenimiento de instalaciones y algunas labores de beneficio 
-               del mineral para facilitar el transporte y mejorar su calidad.</li>
-            <li class="list-group-item">La extracción por el método subterráneo comprende generalmente: labores de acceso 
-              o desarrollo (construcción de pozos, túneles, socavones, etc.), de preparación (construcción de pozos interiores, 
-              tambores, chimeneas, etc.), de arranque manual con pico o con martillo picador, perforación manual y explosivos,
-               perforación semimecanizada y explosivos, perforación mecanizada y explosivos y otros, 
-               y labores auxiliares (ventilación, desagüe, transporte dentro de la mina y hasta el sitio de acopio 
-               generalmente cerca a la boca de mina).</li>
-            <li class="list-group-item">La explotación del mineral por el método de licuefacción, al igual que los procesos 
-              de beneficio como el lavado, el cribado (tamizado), la clasificación, la pulverización u otras actividades propias 
-              de la minería, que permiten</li>
+  <div class="container mt-3 mb-2">
+    <div class="row lineadedivisiona">
 
-              <li class="list-group-item">Las operaciones para recuperar el carbón mineral de escombreras.</li>
+    </div>
+  </div>
 
-                <li class="list-group-item">La gasificación del carbón in situ.</li>
-          </ul>
-        </div>
-        <div class="col-md-5 order-md-2">
-          <img  class="img-fluid" src="img/carbon.jpg" alt="">
-        
 
-        </div>
+  <div class="container mt-5 mb-2" id="saneamiento">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Actividades de saneamiento ambiental y otros servicios de gestión de desechos
+        </h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">La descontaminación de suelos y aguas subterráneas en el
+            lugar de la contaminación, ya sea in situ (en el sitio) o ex situ (fuera del lugar), usando métodos
+            biológicos, químicos o mecánicos.</li>
+          <li class="list-group-item">La descontaminación de instalaciones o sitios industriales, incluso plantas
+            nucleares y sus alrededores.</li>
+          <li class="list-group-item">La descontaminación y limpieza de aguas superficiales tras una contaminación
+            accidental (ej.: a través de la recolección de los contaminantes o la aplicación de productos químicos).
+          </li>
+          <li class="list-group-item">La limpieza de derrames de petróleo y otros contaminantes en tierra, en aguas
+            superficiales, mares y océanos, incluso áreas costeras.</li>
+          <li class="list-group-item">La disminución de asbesto, pintura con plomo y otros materiales tóxicos.</li>
+          <li class="list-group-item">La remoción de minas terrestres y artefactos similares (incluso su detonación).
+          </li>
+          <li class="list-group-item">Otras actividades especializadas de control de la contaminación.</li>
+        </ul>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="img-fluid" src="img/ambiental.jpg" alt="">
+
+
       </div>
     </div>
+  </div>
 
-    <div class="container mt-3 mb-2">
-      <div class="row lineadedivisiona">
-        
+  <div class="container mt-3 mb-2">
+    <div class="row lineadedivisiona">
+
+    </div>
+  </div>
+
+
+  <div class="container mt-5 mb-2" id="Especializado">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-1">
+        <h2 class="featurette-heading">Actividades especializadas para la construcción de edificios y obras de
+          ingeniería civil</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Las obras subterráneas.</li>
+          <li class="list-group-item">La construcción de piscinas.</li>
+          <li class="list-group-item">La limpieza de exteriores de edificios con vapor, con chorro de arena y con otros
+            medios.</li>
+          <li class="list-group-item">El alquiler de maquinaria y equipo de construcción con operadores.</li>
+          <li class="list-group-item">La erección o instalación de estructuras metálicas a partir de piezas de
+            fabricación no propia.</li>
+        </ul>
+      </div>
+      <div class="col-md-5 order-md-2">
+        <img class="img-fluid" src="img/ambiental.jpg" alt="">
+
       </div>
     </div>
+  </div>
 
+  <div class="container mt-3 mb-2">
+    <div class="row lineadedivisiona">
 
-    <div class="container mt-5 mb-2">
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Actividades de saneamiento ambiental y otros servicios de gestión de desechos</h2>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cartografía Geológica de Superficie y Subterránea </li>
-            <li class="list-group-item">Caracterización de Materias Primas </li>
-            <li class="list-group-item">Caracterización Mineralógica y Petrográfica</li>
-            <li class="list-group-item">Geología Estructural </li>
-            <li class="list-group-item">Prospección de Aguas Subterráneas </li>
-            <li class="list-group-item">Prospección y Evaluación de Yacimientos </li>
-          </ul>
-        </div>
-        <div class="col-md-5 order-md-1">
-      <img  class="img-fluid" src="img/ambiental.jpg" alt="">
-        
+    </div>
+  </div>
 
-        </div>
+  <div class="container mt-5 mb-2" id="Apoyo">
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Actividades de apoyo para otras actividades de explotación de minas y canteras
+        </h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Los servicios de apoyo a cambio de una retribución o por contrata, necesario para
+            las actividades mineras de las divisiones 05, «Extracción de carbón de piedra y lignito», 07, «Extracción de
+            minerales metalíferos», y 08, «Extracción de otras minas y canteras».</li>
+          <li class="list-group-item">Los servicios de exploración; por ejemplo, métodos de prospección tradicionales,
+            como la toma de muestras y la realización de observaciones geológicas en posibles sitios de explotación.
+          </li>
+          <li class="list-group-item">Los servicios de drenaje y bombeo, a cambio de una retribución o por contrata.
+          </li>
+          <li class="list-group-item">Las pruebas de perforación y sondeo de exploración.</li>
+        </ul>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="img-fluid" src="img/ambiental.jpg" alt="">
+
       </div>
     </div>
+  </div>
 
 
 
 
-
-    <div class="container-fluid cartel">
-      <div class="row featurette">
-        <div class="col-md-12 p-5">
-          <h2 class="featurette-heading text-center te">¡Bienvenidos a Geotep!</h2>
-          <p class="lead">
-            Geotep ha prestado sus servicios a diferentes empresas, manteniendo la
-            confianza de los clientes con un adecuado manejo de la información suministrada o generada
-            como producto del servicio, cuyo pilar es la ética profesional.</p>
-          <button type="button" class="btn btn-warning text-center">Sobre Nosotros</button>
-  
-        </div>
+  <div class="container-fluid h-100  cartel p-5">
+    <div class="row justify-content-between align-items-center text-md-center text-lg-left">
+      <div class="col-lg-9">
+        <h3 class="mb-4 font-weight-bold"><strong>Contáctame por WhatsApp y coméntame tu idea.</strong>.</h3>
       </div>
+      <div class="col-lg-3 text-md-center text-lg-right mt-4 mb-4">
+        <a href="https://wa.me/573133643889" class="btn btn-lg btn-success"><i
+            class="fab fa-whatsapp"></i>&nbsp;Escríbeme</a>
     </div>
-  
+  </div>
+  </div>
+
 
 
 
@@ -307,18 +382,15 @@ se busca desarrollador web, se hacen paginas web joomla,">
     <div class="text-center pt-3 pb-4">
       <h2>Eficiencia, calidad y complimiento</h2>
       <p class="text-muted">
-       en el desarrollo de nuestro trabajo.
+        en el desarrollo de nuestro trabajo.
       </p>
     </div>
   </div>
 
 
-  
-
-
   <div class="container ">
     <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-sm-12 col-md-4 col-lg-4">
         <div class="text-center">
           <img class="card-img-top align-self-center" src="img/bom.png" style="width: 150px;height: 150px;"
             alt="Card image cap">
@@ -332,7 +404,7 @@ se busca desarrollador web, se hacen paginas web joomla,">
           </p>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-sm-12 col-md-4 col-lg-4">
         <div class="text-center">
           <img class="card-img-top align-self-center" src="img/lupa.png" style="width: 150px;height: 150px;"
             alt="Card image cap">
@@ -347,7 +419,7 @@ se busca desarrollador web, se hacen paginas web joomla,">
           </p>
         </div>
       </div>
-      <div class="col-12 col-lg-4">
+      <div class="col-sm-12 col-md-4 col-lg-4">
         <div class="text-center">
           <img class="card-img-top align-self-center" src="img/personas.png" style="width: 150px;height: 150px;"
             alt="Card image cap">
@@ -366,89 +438,38 @@ se busca desarrollador web, se hacen paginas web joomla,">
     </div>
   </div>
 
-
-
-
-
-
-  <!-- barra de servicios -->
-  <div class="container-fluid servicios py-3 ">
-    <div class="row">
-      <div class="col">
-        <h2 class="font-weight-bolder text-center ">Equipo de trabajo</h2>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid ">
-    <div class="row lineadedivisiona">
-    </div>
-  </div>
-
-
-  <div class="container mt-2 ">
-    <div class="row ">
-      <div class="col-12 text-center">
-        <div class="card-body">
-          <img class="rounded-circle" src="img/jannier.jpeg" alt="Generic placeholder image" width="220" height="280">
-          <h2>Jannier Rayden Villamizar</h2>
-          <p>
-            Me desempeño en las áreas de cartografía geológica, prospección de recursos
-            minerales y energéticos, consultoría en las diversas ramas de la ingeniería y
-            ciencias afines, así como en temas relacionados con la planificación, el ordenamiento
-            territorial y en la zonificación de áreas amenazadas natural y ambientalmente, enfatizado
-            odo su desarrollo en la aplicación de técnicas modernas para la adquisición, procesamiento
-            y manejo de la información.
-
-          </p>
+  <footer class="bg-dark pt-5 pb-2" id="contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h5 class="mb-1 text-white">Servicios</h5>
+          <ul class="list-unstyled text-small">
+            <li ><a class="text-muted" href="#Estudio">Estudios geológicos</a></li>
+            <li><a class="text-muted" href="#Extraccion">Extracción </a></li>
+            <li><a class="text-muted" href="#saneamiento">Actividades de saneamiento</a></li>
+            <li><a class="text-muted" href="#Especializado">Actividades especializadas</a></li>
+            <li><a class="text-muted" href="#apoyo">Actividades de apoyo</a></li>
+          </ul>
         </div>
-      </div>
+        <div class="col-6">
+          <h5 class="mb-2 text-white">Contacto</h5>
+          <ul class="list-unstyled text-small">
+            <li class="text-muted">geotepsas@gmail.com</li>
+            <li class="text-muted">Tel. +57 3214474584+5</li>
+            <li class="text-muted">Barrio Kennedy Calle 8 #7-76 </li>
+            <li class="text-muted">Málaga, Santander</li>
+          </ul>
+        </div>
 
-
-    </div>
-  </div>
-
-
-
-
-  <div class="container-fluid " id="verse5">
-    <div class="row lineadedivisiona">
-    </div>
-  </div>
-
-  <div class="container-fluid piedepagina ">
-    <div class="row ">
-      <div class="d-none mt-2">
-        <ul class="navbar-nav navbar-brand navegador ">
-          <li class="nav-item"><a class="nav-link text-white" href="#verse1">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#verse2">Servicion</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#verse3">¿Cómo Trabajamos?</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#verse4">Euipo de trabajo</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="#verse5">Contacto</a></li>
-        </ul>
-      </div>
-      <div class="col-12">
-        <div class="card-body">
-          <h1 class="text-white text-center">Contacto</h1>
-          <p class="text-white contacto text-center">
-            Málaga, Santander
-            <br>Barrio Kennedy Calle 8 #7-76
-            <br>Tel. +57 3214474584
-            <br>geotepsas@gmail.com
-          </p>
+        <div class="col-6">
+          <h5 class="mb-1 text-white">Aviso Legal</h5>
+          <ul class="list-unstyled text-small">
+            <li ><a class="text-muted" href="#Estudio">Aviso Legal</a></li>
+            </ul>
         </div>
       </div>
     </div>
-  </div>
-  </div>
-
-  <div class="container-fluid " id="verse5">
-    <div class="row lineadedivisiona">
-    </div>
-  </div>
-  <p class="text-center">Ing. Faibe Adrian Abril © 2020</p>
-
-
-
+  </footer>
 
 
 
