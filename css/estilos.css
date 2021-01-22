@@ -147,6 +147,9 @@ section #services li span {
 }
 
 
-
+.carousel-caption {
+  
+  bottom: 0.1rem;
+}
 
 	
